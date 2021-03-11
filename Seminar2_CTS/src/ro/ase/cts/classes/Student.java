@@ -27,8 +27,12 @@ public class Student extends Aplicant {
 		super();
 
 	}
+	
+	public static float getSumaFinantare() {
+		return sumaFinantare;
+	}
 
-	public static void setSumaFinantare(int sumaFinantare) {
+	public static void setSumaFinantare(float sumaFinantare) {
 		Student.sumaFinantare = sumaFinantare;
 	}
 
@@ -57,7 +61,5 @@ public class Student extends Aplicant {
 		// TODO Auto-generated method stub
 		return sumaFinantare;
 	}
-	
-	
 
 }

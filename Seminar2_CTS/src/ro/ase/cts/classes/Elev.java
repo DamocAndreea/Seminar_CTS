@@ -22,6 +22,14 @@ public class Elev extends Aplicant {
 	public void setTutore(String tutore) {
 		this.tutore = tutore;
 	}
+	
+	public static int getSumaFinantare() {
+		return sumaFinantare;
+	}
+
+	public static void setSumaFinantare(int sumaFinantare) {
+		Elev.sumaFinantare = sumaFinantare;
+	}
 
 	@Override
 	public String toString() {

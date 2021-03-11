@@ -22,9 +22,13 @@ public class Angajat extends Aplicant {
 	public void setSalariu(int salariu) {
 		this.salariu = salariu;
 	}
-	
+
 	public static void setSumaFinantare(float sumaFinantare) {
 		Angajat.sumaFinantare = sumaFinantare;
+	}
+
+	public static float getSumaFinantare() {
+		return sumaFinantare;
 	}
 
 	public Angajat(String nume, String prenume, int varsta, int punctaj, int nr_proiecte, String[] denumire_Proiecte,
@@ -59,5 +63,4 @@ public class Angajat extends Aplicant {
 		return sumaFinantare;
 	}
 
-	
 }

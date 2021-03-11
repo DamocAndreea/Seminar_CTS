@@ -7,7 +7,9 @@ import ro.ase.cts.readers.StudentReader;
 import java.io.FileNotFoundException;
 import java.util.List;
 
+import ro.ase.cts.classes.Angajat;
 import ro.ase.cts.classes.Aplicant;
+import ro.ase.cts.classes.Student;
 
 public class Program {
 
@@ -18,12 +20,16 @@ public class Program {
 
 	public static void main(String[] args) {
 
+		System.out.println(Student.getSumaFinantare());
+		System.out.println(Angajat.getSumaFinantare());
 		List<Aplicant> listaAplicanti;
 		AplicantReader aplicantReader = new StudentReader("studenti.txt");
 		try {
-			listaAplicanti = citesteAplicanti(new AngajatReader("angajati.txt"));
-			for (Aplicant angajat : listaAplicanti)
+			listaAplicanti = citesteAplicanti(aplicantReader);
+			for (Aplicant angajat : listaAplicanti) {
 				System.out.println(angajat.toString());
+				System.out.println(angajat.getSumaFinantata());
+			}
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
