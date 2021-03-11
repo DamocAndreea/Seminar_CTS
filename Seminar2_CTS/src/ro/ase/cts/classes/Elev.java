@@ -1,7 +1,5 @@
 package ro.ase.cts.classes;
 
-import java.util.Arrays;
-
 public class Elev extends Aplicant {
 	private int clasa;
 	private String tutore;
@@ -22,7 +20,7 @@ public class Elev extends Aplicant {
 	public void setTutore(String tutore) {
 		this.tutore = tutore;
 	}
-	
+
 	public static int getSumaFinantare() {
 		return sumaFinantare;
 	}
@@ -33,9 +31,7 @@ public class Elev extends Aplicant {
 
 	@Override
 	public String toString() {
-		return "Elev: Nume=" + nume + ", Prenume=" + prenume + ", Varsta=" + varsta + ", Punctaj=" + punctaj
-				+ ", Nr_proiecte=" + nr_proiecte + ", DenumireProiect=" + Arrays.toString(denumireProiect) + "Clasa="
-				+ clasa + ", Tutore=" + tutore;
+		return "Elev: " + super.toString() + "Clasa=" + clasa + ", Tutore=" + tutore;
 	}
 
 	public Elev() {
@@ -60,5 +56,5 @@ public class Elev extends Aplicant {
 		// TODO Auto-generated method stub
 		return sumaFinantare;
 	}
-	
+
 }

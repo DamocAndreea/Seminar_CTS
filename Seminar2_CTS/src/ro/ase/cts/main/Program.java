@@ -1,6 +1,5 @@
 package ro.ase.cts.main;
 
-import ro.ase.cts.readers.AngajatReader;
 import ro.ase.cts.readers.AplicantReader;
 import ro.ase.cts.readers.StudentReader;
 
@@ -9,6 +8,7 @@ import java.util.List;
 
 import ro.ase.cts.classes.Angajat;
 import ro.ase.cts.classes.Aplicant;
+import ro.ase.cts.classes.Proiect;
 import ro.ase.cts.classes.Student;
 
 public class Program {
@@ -26,8 +26,10 @@ public class Program {
 		AplicantReader aplicantReader = new StudentReader("studenti.txt");
 		try {
 			listaAplicanti = citesteAplicanti(aplicantReader);
+			Proiect proiect = new Proiect(80);
 			for (Aplicant angajat : listaAplicanti) {
 				System.out.println(angajat.toString());
+				angajat.afiseazaStatus(proiect);
 				System.out.println(angajat.getSumaFinantata());
 			}
 		} catch (FileNotFoundException e) {
