@@ -18,8 +18,8 @@ public class Student extends Aplicant {
 		return anStudii;
 	}
 
-	public void setAn_studii(int an_studii) {
-		this.anStudii = an_studii;
+	public void setAn_studii(int anStudii) {
+		this.anStudii = anStudii;
 	}
 
 	public Student() {
@@ -35,11 +35,11 @@ public class Student extends Aplicant {
 		Student.sumaFinantare = sumaFinantare;
 	}
 
-	public Student(String nume, String prenume, int varsta, int punctaj, int nr_proiecte, String[] denumireProiect,
-			String facultate, int an_studii) {
-		super(nume, prenume, varsta, punctaj, nr_proiecte, denumireProiect);
+	public Student(String nume, String prenume, int varsta, int punctaj, int nrProiecte, String[] denumireProiect,
+			String facultate, int anStudii) {
+		super(nume, prenume, varsta, punctaj, nrProiecte, denumireProiect);
 		this.facultate = facultate;
-		this.anStudii = an_studii;
+		this.anStudii = anStudii;
 	}
 
 	@Override
