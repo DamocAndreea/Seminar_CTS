@@ -15,7 +15,7 @@ public class Main {
 			CategorieFactory factory = new CategorieFactory();
 			Categorie durere = factory.creareCategorie(CategoriiMedicamente.Durere, 5);
 			Categorie body = factory.creareCategorie(CategoriiMedicamente.Body, 10);
-			Categorie categorie = factory.creareCategorie(getTipCategorie(), 15);
+			Categorie categorie = factory.creareCategorie(getTipCategorie(), 15f);
 			
 			System.out.println(durere.toString());
 			System.out.println(body.toString());
