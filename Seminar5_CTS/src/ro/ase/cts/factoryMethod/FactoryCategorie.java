@@ -1,4 +1,4 @@
-package ro.ase.acs.factoryMethod;
+package ro.ase.cts.factoryMethod;
 
 public interface FactoryCategorie {
 	

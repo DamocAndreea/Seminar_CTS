@@ -1,4 +1,4 @@
-package ro.ase.acs.factoryMethod;
+package ro.ase.cts.factoryMethod;
 
 public abstract class Categorie {
 	public float pretDeBaza;

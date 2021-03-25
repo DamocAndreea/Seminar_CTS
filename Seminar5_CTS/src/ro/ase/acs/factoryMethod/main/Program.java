@@ -1,10 +1,10 @@
 package ro.ase.acs.factoryMethod.main;
 
-import ro.ase.acs.factoryMethod.Categorie;
-import ro.ase.acs.factoryMethod.FactoryBody;
-import ro.ase.acs.factoryMethod.FactoryCategorie;
-import ro.ase.acs.factoryMethod.FactoryDurere;
-import ro.ase.acs.factoryMethod.FactoryGripa;
+import ro.ase.cts.factoryMethod.Categorie;
+import ro.ase.cts.factoryMethod.FactoryBody;
+import ro.ase.cts.factoryMethod.FactoryCategorie;
+import ro.ase.cts.factoryMethod.FactoryDurere;
+import ro.ase.cts.factoryMethod.FactoryGripa;
 
 public class Program {
 	

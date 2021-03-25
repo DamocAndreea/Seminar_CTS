@@ -1,15 +1,15 @@
-package ro.ase.acs.factoryMethod;
+package ro.ase.cts.factoryMethod;
 
-public class Durere extends Categorie {
+public class Body extends Categorie {
 
-	public Durere(float pretDeBaza) {
+	public Body(float pretDeBaza) {
 		super(pretDeBaza);
 	}
 
 	@Override
 	public String toString() {
 		StringBuilder builder = new StringBuilder();
-		builder.append("Durere [pretDeBaza=");
+		builder.append("Body [pretDeBaza=");
 		builder.append(pretDeBaza);
 		builder.append("]");
 		return builder.toString();
