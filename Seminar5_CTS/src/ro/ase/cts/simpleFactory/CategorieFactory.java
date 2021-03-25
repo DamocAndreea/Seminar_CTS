@@ -1,4 +1,4 @@
-package ro.ase.cts;
+package ro.ase.cts.simpleFactory;
 
 public class CategorieFactory {
 	public Categorie creareCategorie(

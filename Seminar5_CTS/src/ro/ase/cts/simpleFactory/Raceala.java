@@ -1,19 +1,19 @@
-package ro.ase.cts;
+package ro.ase.cts.simpleFactory;
 
-public class Body extends Categorie {
+public class Raceala extends Categorie {
 
-	public Body(float pretDeBaza) {
+	public Raceala(float pretDeBaza) {
 		super(pretDeBaza);
 	}
 
 	@Override
 	public String toString() {
 		StringBuilder builder = new StringBuilder();
-		builder.append("Body [pretDeBaza=");
+		builder.append("Raceala [pretDeBaza=");
 		builder.append(pretDeBaza);
 		builder.append("]");
 		return builder.toString();
 	}
-
+	
 	
 }
