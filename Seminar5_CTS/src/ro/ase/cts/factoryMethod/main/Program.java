@@ -1,4 +1,4 @@
-package ro.ase.acs.factoryMethod.main;
+package ro.ase.cts.factoryMethod.main;
 
 import ro.ase.cts.factoryMethod.Categorie;
 import ro.ase.cts.factoryMethod.FactoryBody;
