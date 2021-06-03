@@ -24,6 +24,10 @@ public class Grupa {
 		this.studenti.addAll(studenti);
 	}
 
+	public List<IStudent> getListaStudenti() {
+		return this.studenti;
+	}
+
 	public void adaugaStudent(IStudent student) {
 		studenti.add(student);
 	}
